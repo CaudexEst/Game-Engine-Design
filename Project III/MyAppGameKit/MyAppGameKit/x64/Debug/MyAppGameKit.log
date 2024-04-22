@@ -1,0 +1,6 @@
+﻿  MyAppGameKit.cpp
+C:\Users\bsjen\Desktop\memes\Homework\Game Engine Design\Project III\MyAppGameKit\MyAppGameKit\MyAppGameKit.cpp(21,5): error C2664: 'BOOL CreateProcessW(LPCWSTR,LPWSTR,LPSECURITY_ATTRIBUTES,LPSECURITY_ATTRIBUTES,BOOL,DWORD,LPVOID,LPCWSTR,LPSTARTUPINFOW,LPPROCESS_INFORMATION)': cannot convert argument 2 from 'LPSTR' to 'LPWSTR'
+C:\Users\bsjen\Desktop\memes\Homework\Game Engine Design\Project III\MyAppGameKit\MyAppGameKit\MyAppGameKit.cpp(21,41): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\processthreadsapi.h(372,1): message : see declaration of 'CreateProcessW'
+C:\Users\bsjen\Desktop\memes\Homework\Game Engine Design\Project III\MyAppGameKit\MyAppGameKit\MyAppGameKit.cpp(21,5): message : while trying to match the argument list '(int, LPSTR, int, int, int, int, int, int, STARTUPINFO *, PROCESS_INFORMATION *)'
+C:\Users\bsjen\Desktop\memes\Homework\Game Engine Design\Project III\MyAppGameKit\MyAppGameKit\MyAppGameKit.cpp(590,50): warning C4305: 'argument': truncation from 'double' to 'float'
