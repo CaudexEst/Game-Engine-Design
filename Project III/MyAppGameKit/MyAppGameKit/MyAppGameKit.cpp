@@ -12,14 +12,14 @@
 #define ZERO(memory) ZeroMemory(&memory, sizeof(memory))
 using namespace std;
 
-void System(string cmd) 
+void System(string cmd)
 {
     STARTUPINFO startupInfo;
     PROCESS_INFORMATION processInfo;
     ZERO(startupInfo);
     ZERO(processInfo);
-    CreateProcess(NULL, (LPSTR)cmd.c_str(), NULL, NULL, FALSE, 0, NULL, NULL, &startupInfo, &processInfo);
 
+    CreateProcess(NULL, (LPWSTR)cmd.c_str(), NULL, NULL, FALSE, 0, NULL, NULL, &startupInfo, &processInfo);
 }
 
 
@@ -595,7 +595,7 @@ void Start()
     //Object1->name = "AGK.Object1";
     ///Object2->name = "AGK.Object2";
     //Object3->name = "AGK.Object3";
-    cout<<Object1<<Object2<<Object3;
+    //cout<<Object1<<Object2<<Object3;
 }
 
 float yPOS(float time)
@@ -631,7 +631,7 @@ int main() //Has to be at end
         {
             Update();
             time += interval;
-            //cout << time << endl;
+            cout << time << endl;
         }
     }
     return 0;

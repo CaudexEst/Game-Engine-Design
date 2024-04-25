@@ -1,0 +1,4 @@
+﻿  MyAppGameKit2.cpp
+C:\Users\bsjen\Desktop\memes\Homework\Github\Game-Engine-Design\Project III\MyAppGameKit2\MyAppGameKit2\MyAppGameKit2.cpp(590,51): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\bsjen\Desktop\memes\Homework\Github\Game-Engine-Design\Project III\MyAppGameKit2\MyAppGameKit2\MyAppGameKit2.cpp(560): warning C4715: 'IterateList': not all control paths return a value
+  MyAppGameKit2.vcxproj -> C:\Users\bsjen\Desktop\memes\Homework\Github\Game-Engine-Design\Project III\MyAppGameKit2\x64\Debug\MyAppGameKit2.exe
